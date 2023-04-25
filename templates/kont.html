@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="ru">
+<meta charset="utf-8" />
+<head>
+<title> Контакты </title>
+</head>
+  <body>
+  <h3>Заказ столов</h3>
+  <h4>Вы можете у нас заказать столик для работы, или просто для еды.</h4>
+  <h5>Подробнее по телефону: 8(890)8842222</h5>
+  <img src="{{ url_for('static', filename='image/ed.jpg') }}" alt="no picture"
+    align="left" hspace="50" vspace="20" />
+<img src="{{ url_for('static', filename='image/rab.jpg') }}" alt="no picture"
+    align="left" width="500" height="417" hspace="50" vspace="20" />
+  <a href="{{url_for('hw')}}">На главную</a>
+</body>
+</html>
